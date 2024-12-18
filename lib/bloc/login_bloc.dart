@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:tanah_id/helpers/api.dart';
 import 'package:tanah_id/helpers/api_url.dart';
-import 'package:tanah_id/model/login.dart';
+import 'package:tanah_id/models/login.dart';
 
 class LoginBloc {
   static Future<Login> login({String? email, String? password}) async {

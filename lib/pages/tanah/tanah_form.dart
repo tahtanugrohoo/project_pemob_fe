@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tanah_id/bloc/tanah_bloc.dart';
-import 'package:tanah_id/model/tanah.dart';
+import 'package:tanah_id/models/tanah.dart';
 import 'package:tanah_id/pages/home/home_page.dart';
 import 'package:tanah_id/widget/warning_dialog.dart';
 

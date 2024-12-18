@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:tanah_id/bloc/logout_bloc.dart';
 import 'package:tanah_id/bloc/tanah_bloc.dart';
-import 'package:tanah_id/model/tanah.dart';
+import 'package:tanah_id/models/tanah.dart';
 import 'package:tanah_id/pages/login/login_page.dart';
 import 'package:tanah_id/pages/tanah/tanah_detail.dart';
 import 'package:tanah_id/pages/tanah/tanah_form.dart';

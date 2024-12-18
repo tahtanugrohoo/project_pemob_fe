@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:tanah_id/helpers/api.dart';
 import 'package:tanah_id/helpers/api_url.dart';
-import 'package:tanah_id/model/resgistrasi.dart';
+import 'package:tanah_id/models/resgistrasi.dart';
 
 class RegistrasiBloc {
   static Future<Registrasi> registrasi(

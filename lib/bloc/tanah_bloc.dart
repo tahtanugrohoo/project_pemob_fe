@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:tanah_id/helpers/api.dart';
 import 'package:tanah_id/helpers/api_url.dart';
-import 'package:tanah_id/model/tanah.dart';
+import 'package:tanah_id/models/tanah.dart';
 
 class TanahBloc {
   static Future<List<Tanah>> getTanahs() async {
