@@ -21,6 +21,7 @@ class TanahBloc {
     var body = {
       "kode_tanah": tanah!.kodeTanah,
       "nama_tanah": tanah.namaTanah,
+      "deskripsi_tanah": tanah.deskripsiTanah,
       "harga": tanah.hargaTanah.toString()
     };
     var response = await Api().post(apiUrl, body);
@@ -34,6 +35,7 @@ class TanahBloc {
     var body = {
       "kode_tanah": tanah.kodeTanah,
       "nama_tanah": tanah.namaTanah,
+      "deskripsi_tanah": tanah.deskripsiTanah,
       "harga": tanah.hargaTanah.toString()
     };
     print("Body : $body");
